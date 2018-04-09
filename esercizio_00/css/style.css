@@ -1,0 +1,167 @@
+header{
+  height: 50px;
+  background-color: #273d55;
+  width: 100%;
+}
+
+.dropdown{
+  margin-top: 10px;
+}
+
+.dropdown-menu li{
+  padding: 8px;
+}
+
+.dropdown-menu li span{
+  margin-left: 15px;
+}
+
+.open>.dropdown-menu {
+    width: 200px;
+}
+
+.caret{
+  margin-left: 10px;
+  display: inline-block;
+}
+
+header span{
+  color: #7c9dbd;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.dropdown{
+  position: absolute;
+  left: 20px;
+}
+
+.dropdown-menu{
+  background-color: #273d55;
+}
+
+.dropdown-menu li a{
+  color: #7c9dbd;
+}
+
+.ricerca{
+  margin-top: 14px;
+  background-color: #3d5875;
+  border: 0px;
+  color: #7c9dbd;
+  border-radius: 25px;
+  position: absolute;
+  right: 40px;
+  padding-left: 15px;
+}
+
+::-webkit-input-placeholder{ /* WebKit, Blink, Edge */
+  color: #7c9dbd;
+}
+
+:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
+ color: #7c9dbd;
+}
+
+::-moz-placeholder{ /* Mozilla Firefox 19+ */
+ color: #7c9dbd;
+}
+
+:-ms-input-placeholder{ /* Internet Explorer 10-11 */
+ color: #7c9dbd;
+}
+
+::-ms-input-placeholder{ /* Microsoft Edge */
+ color: #7c9dbd;
+}
+
+.estratto_articolo{
+  padding-bottom: 30px;
+  padding: 20px;
+  margin: 0;
+  border-bottom: 1px solid #f6f7f9;
+  cursor: pointer;
+}
+
+.estratto_articolo a{
+  font-size: 12px;
+  color: #b6b6b6;
+  text-decoration: none;
+}
+
+.estratto_articolo h3{
+  font-size: 18px;
+  margin: 0px;
+  color: #273d55;
+}
+
+.sidebar{
+  border: solid 1px #f6f7f9;
+}
+
+.page{
+  width: 800px;
+  display: block;
+  position: relative;
+  margin: auto;
+}
+
+@media screen and (max-width: 1119px){
+  .page{
+    width: 100%;
+  }
+}
+
+.url_data{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.url_data span a{
+  color: #545756;
+  text-decoration: none;
+}
+
+.url_data span a span{
+  color: #545756;
+}
+
+.page h1{
+  text-align: center;
+  color: #273d55;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.page h4{
+  text-align: center;
+  color: #9dadb6;
+  width: 100%;
+  border-bottom: 3px solid #f0f2f1;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.page h4 span{
+  background:#fff;
+  padding:0 10px;
+}
+
+.page img{
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.page p{
+  display: block;
+  position: relative;
+  margin: auto;
+  color: #606e85;
+  left: 10px;
+  right: 40px;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>To do list App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <style>
+
+    #titolo{
+      color: #337ab7;
+      margin-bottom: 30px;
+      font-size: 103px;
+    }
+
+    #titolodue{
+      color: #337ab7;
+      font-size: 40px;
+      border-bottom: thick solid #337ab7;
+    }
+
+    #todo{
+      list-style: none;
+      padding: 0;
+    }
+
+    #todo li{
+      background-color: #337ab7;
+      color: white;
+      padding: 15px;
+    }
+
+    label{
+      height: 50px;
+      border-bottom: thick solid #337ab7;
+      width: 100%;
+      color: #337ab7;
+      font-size: 28px;
+    }
+
+    input{
+      height: 50px!important;
+    }
+
+    #btni{
+      height: 50px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    #btnf{
+      height: 50px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    #btnD{
+      height: 50px;
+      width: 100%;
+      margin-bottom: 10px;
+      padding-top: 13px;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-xs-12">
+        <h1 id="titolo">To-do-list</h1>
+      </div>
+
+      <div class="col-xs-10">
+        <input type="text" class="form-control" placeholder="scrivi mansione" id="input">
+      </div>
+
+      <div class="col-xs-2">
+        <button type="button" class="btn btn-primary" id="btni">INSERISCI</button>
+      </div>
+
+      <div class="col-xs-12" id="items">
+
+        <div class="col-xs-6" id="mansioni">
+          <h2 id="titolodue">Mansioni</h2>
+
+          <template>
+            <div class="col-xs-4" id="mansioniL">
+                <label class="col-md-5 col-md-offset-2 col-xs-12" id="label"></label>
+            </div>
+
+            <div class="col-xs-2" id="mansioniB">
+                <button type="button" class="col-md-2 col-xs-12 btn btn-success" id="btnf">FATTO</button>
+            </div>
+          </template>
+        </div>
+
+
+        <div class="col-xs-6" id="mansioniF">
+          <h2 id="titolodue">Mansioni svolte</h2>
+
+          <template>
+
+            <div class="col-xs-4" id="mansioniL">
+                <label class="col-md-5 col-md-offset-2 col-xs-12" id="label"></label>
+            </div>
+
+            <div class="col-xs-2" id="mansioniB">
+                <button type="button" class="col-md-2 col-xs-12 btn btn-success" id="btnf">ELIMINA</button>
+            </div>
+
+          </template>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
